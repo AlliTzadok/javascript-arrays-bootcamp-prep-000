@@ -1,17 +1,17 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-var addBeginningConserve = [1,2,3];
+var addBeginningConserve = [1];
 
 function addElementToBeginningOfArray(addBeginningConserve, element){
   return ["foo",...addBeginningConserve]
 }
 
-var addBeginningDestruct = [1,2,3];
+var addBeginningDestruct = [1];
 function destructivelyAddElementToBeginningOfArray(addBeginningDestruct, element){
   return addBeginningDestruct.unshift("foo")
 }
 
-var addEndConserve = [1,2,3];
+var addEndConserve = [1];
 function addElementToEndOfArray(addEndConserve, element){
   return [...addEndConserve,"foo"]
 }
