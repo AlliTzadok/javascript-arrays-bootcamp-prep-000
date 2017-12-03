@@ -20,3 +20,8 @@ var addEndDestruct = [1,2,3];
 function destructivelyAddElementToEndOfArray(addEndDestruct, index){
   return addEndDestruct.push();
 }
+
+var array = [1,2,3];
+function accessElementInArray(array,2){
+  return array(2);
+}
