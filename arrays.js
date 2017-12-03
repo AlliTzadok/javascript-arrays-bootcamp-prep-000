@@ -48,6 +48,6 @@ function destructivelyRemoveElementFromEndOfArray(removeEndDestruct){
 
 var removeEndConserve = [1,2,3];
 function removeElementFromEndOfArray(removeEndConserve){
-  removeEndConserve.splice(2,1);
+  removeEndConserve.slice(-1);
   return removeEndConserve;
 }
