@@ -18,7 +18,7 @@ function addElementToEndOfArray(addEndConserve, element){
 
 var addEndDestruct = [1,2,3];
 function destructivelyAddElementToEndOfArray(addEndDestruct, index){
-  return addEndDestruct.push('foo');
+  return addEndDestruct.push("foo");
 }
 
 var array = [1,2,3];
