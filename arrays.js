@@ -18,7 +18,8 @@ function addElementToEndOfArray(addEndConserve, element){
 
 var addEndDestruct = [1];
 function destructivelyAddElementToEndOfArray(addEndDestruct, index){
-  return addEndDestruct.push("foo");
+  addEndDestruct.push("foo");
+  return addEndDestruct;
 }
 
 var array = [1,2,3];
@@ -29,5 +30,5 @@ function accessElementInArray(array,index){
 var removeBeginningDestruct = [1,2,3];
 function destructivelyRemoveElementFromBeginningOfArray(removeBeginningDestruct){
   removeBeginningDestruct.shift();
-  return removeBeginningDestruct
+  return removeBeginningDestruct;
 }
