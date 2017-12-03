@@ -1,0 +1,22 @@
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+
+var beginningConserve = [1,2,3];
+
+function addElementToBeginningOfArray(beginningConserve, foo){
+  return ["foo",...beginningConserve]
+}
+
+var beginningDestruct = [1,2,3];
+function destructivelyAddElementToBeginningOfArray(beginningDestruct, foo){
+  return beginningDestruct.unshift("foo")
+}
+
+var endConserve = [1,2,3];
+function addElementToEndOfArray(endConserve, foo){
+  return [...endConserve,"foo"]
+}
+
+var endDestruct = [1,2,3];
+function destructivelyAddElementToEndOfArray(endDestruct, index){
+  return accessElementInArray[2]
+}
