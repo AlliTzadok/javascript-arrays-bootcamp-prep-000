@@ -11,12 +11,12 @@ function destructivelyAddElementToBeginningOfArray(addBeginningDestruct, element
   return beginningDestruct.unshift("foo")
 }
 
-var endConserve = [1,2,3];
-function addElementToEndOfArray(endConserve, foo){
-  return [...endConserve,"foo"]
+var addEndConserve = [1,2,3];
+function addElementToEndOfArray(addEndConserve, element){
+  return [...addEndConserve,"foo"]
 }
 
-var endDestruct = [1,2,3];
-function destructivelyAddElementToEndOfArray(endDestruct, index){
-  return accessElementInArray[2]
+var addEndDestruct = [1,2,3];
+function destructivelyAddElementToEndOfArray(addEndDestruct, index){
+  return addEndDestruct.push();
 }
