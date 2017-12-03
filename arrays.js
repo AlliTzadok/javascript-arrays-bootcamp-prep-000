@@ -51,4 +51,4 @@ var removeEndConserve = [1,2,3];
 function removeElementFromEndOfArray(removeEndConserve){
   removeEndConserve.splice(-1);
  return removeEndConserve;
-}}
+}
