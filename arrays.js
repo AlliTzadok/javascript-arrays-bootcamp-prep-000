@@ -33,3 +33,15 @@ function destructivelyRemoveElementFromBeginningOfArray(removeBeginningDestruct)
   removeBeginningDestruct.shift();
   return removeBeginningDestruct;
 }
+
+var removeBeginningConserve = [1,2,3];
+function removeElementFromBeginningOfArray(removeBeginningConserve){
+  removeBeginningConserve.slice(1);
+  return removeBeginningConserve;
+}
+
+var removeEndDestruct = [1,2,3];
+function destructivelyRemoveElementFromEndOfArray(removeEndDestruct){
+  removeEndDestruct.pop();
+  return removeEndDestruct;
+}
