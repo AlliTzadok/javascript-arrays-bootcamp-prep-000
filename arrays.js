@@ -38,8 +38,8 @@ var removeBeginningConserve = [1,2,3];
 function removeElementFromBeginningOfArray(removeBeginningConserve){
   removeBeginningConserve.splice(2,3);}
   
-  return removeBeginningConserve;
-}}
+  {return removeBeginningConserve;
+}
 
 var removeEndDestruct = [1,2,3];
 function destructivelyRemoveElementFromEndOfArray(removeEndDestruct){
@@ -49,6 +49,6 @@ function destructivelyRemoveElementFromEndOfArray(removeEndDestruct){
 
 var removeEndConserve = [1,2,3];
 function removeElementFromEndOfArray(removeEndConserve){
-  removeEndConserve.splice(-1);
-  return removeEndConserve;
-}
+  removeEndConserve.splice(-1);}
+ {return removeEndConserve;
+}}
